@@ -1,0 +1,183 @@
+.news-add-container{
+    max-width: 1600px;
+}
+
+.title-container-news{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 100px;
+    font-size: xx-large;
+}
+
+.form-news{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.news-section-container{
+    margin: 20px 0px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.title-news-section{
+    font-size: x-large;
+    color: orange;
+    font-weight: 800;
+    text-align: left;
+}
+
+.underline-news{
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: orange;
+    margin: 0px 0px 20px 0px;
+}
+
+.news-cate-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-detail-container{
+    width: 350px;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+.news-detail-container:hover{
+    box-shadow: 0px 0px 10px 2px #888888
+}
+
+.thumnail{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.title-thumnail{
+    font-size: large;
+    text-align: center;
+}
+
+.view-detail{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.view-count{
+    padding: 10px 20px;
+    font-size: small;
+    text-align: left;
+    color: gray;
+}
+
+.view-date{
+    padding: 10px 20px;
+    font-size: small;
+    text-align: right;
+    color: gray;
+}
+
+.icon-view-news{
+    margin: 0px 10px;
+}
+
+.banner-news{
+    height: 400px;
+    max-width: 1600px;
+    width: 100%;
+    background-color: tan;
+    position: relative;
+    margin: 0 auto;
+}
+
+.image-banner-news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.image-banner-news{
+    height: 400px;
+    width: 100%;
+}
+
+.title-news-banner{
+    position: absolute;
+    width: 100%;
+    font-size: x-large;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 100;
+}
+
+.banner-news-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray ;
+}
+
+.banner-news-bottom-left{
+    padding: 0px 10px;
+    border-right: 2px solid black;
+}
+
+.banner-news-bottom-right{
+    padding: 0px 10px;
+}
+
+.content-detail-news{
+    padding: 20px;
+    background-color: white;
+}
+
+.title-relative-news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.relative-news-container{
+    max-width:1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.underline-relative-news{
+    margin: 0 auto;
+    background-color: #888888;
+    width: 100px;
+    height: 3px;
+}
+
+.relative-news-container{
+    margin: 10px auto;
+}
+
+.margin-news{
+    margin-bottom: 30px;
+}

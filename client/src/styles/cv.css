@@ -1,0 +1,110 @@
+.CV-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    column-gap: 20px;
+    min-width: 700px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.cv-detail-avatar{
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: 10 auto;
+}
+
+.title-in-cv{
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.left-content-cv{
+    margin: 5px 20px 5px 0px;
+}
+
+.cv-fullname{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.detail-section-cv-container{
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.label-cv{
+    /* font-size: large; */
+    font-weight: 600;
+}
+
+.label-left-cv{
+    /* min-width: 130px; */
+    font-size: large;
+    font-weight: 600;
+    text-align: right;
+}
+
+.underline-detail-cv{
+    width: 100%;
+    height: 20px;
+    /* top:5px; */
+    background-color: rgb(250, 219, 224);
+}
+
+.wrap-label-cv{
+    display: flex;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.text-cv{
+    padding: 5px;
+}
+
+.text5{
+    min-height: 150px;
+}
+
+.wrap-cv-display{
+    text-align: left;
+}
+
+.border-underline{
+    border-bottom: 1px solid gray;
+}
+
+.left-CV-container{
+    padding: 10px;
+    background-color: #008080;
+}
+
+.rate-cv-container{
+    text-align: center;
+}
+
+.notice{
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #ffa500;
+}
+
+.rate-detail-container{
+    text-align: center;
+    margin: 20px;
+}
+
+.avatar-rate img{
+    height: 50px;
+    width: 50px;
+}
+
+.hint-text{
+    color: #ffa500;
+    margin: 10px 0px;
+}

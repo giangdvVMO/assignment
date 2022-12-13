@@ -1,0 +1,98 @@
+.banner-content{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    background-image: linear-gradient(to bottom right, #eeaeca,#94bbe9);
+    position: relative;
+}
+
+.container-filter{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    width: 100%;
+    margin: 0px 5px;
+}
+
+.label-filter{
+    text-align: left;
+}
+
+.filter-content{
+    /* margin-left: 5px; */
+    /* width: 70%; */
+}
+
+.search{
+    display: flex;
+    width: 100%;
+    /* margin-left: 20px; */
+}
+
+.input{
+    text-align: left;
+    width: 90%;
+}
+
+.transparent{
+    color: transparent;
+}
+
+.label-filter{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.search-input{
+    max-width: 1600px;
+}
+
+.bold-column{
+    font-weight:900
+}
+
+.ant-table-thead .ant-table-cell{
+    font-weight:700;
+    text-align: center;
+    width:fit-content;
+}
+
+.text-banner{
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+}
+
+.image-background-banner{
+    /* background-position: left;
+    background-size: cover; */
+    /* background-image:url(https://i.ibb.co/X7Fw3P2/Grades-bro.png) */
+    position: absolute;
+    top: -100px;
+    width: 200px;
+    height: 200px;
+    left: 10px;
+    /* display: flex;
+    width: 100%;
+    align-items: flex-end; */
+}
+
+.banner-content .ant-image{
+    position: absolute;
+    right: 210px;
+
+}

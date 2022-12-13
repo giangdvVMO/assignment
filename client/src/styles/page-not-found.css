@@ -1,0 +1,26 @@
+.container-not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(91, 255, 91, 0.3);
+}
+
+.number {
+    font-size: 100px;
+    font-weight: 500;
+    color: rgba(0, 37, 0, 0.8);
+}
+
+.not-found-icon {
+    font-size: 50px;
+    color: rgba(0, 37, 0, 0.8);
+}
+
+.text-page-not-found {
+    font-weight: 700;
+    margin: 20px;
+    color: rgba(0, 37, 0, 0.8);
+    text-transform: capitalize;
+}

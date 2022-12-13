@@ -1,0 +1,12 @@
+.notification{
+    margin-right: 25px;
+}
+
+.icon-bell{
+    font-size: 24px;
+}
+
+.list-noti{
+    width: 250px;
+    max-height: 800px;
+}

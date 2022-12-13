@@ -1,0 +1,144 @@
+.swapper-container{
+    width: 90%;
+    min-width: 700px;
+    max-width: 1500px;
+    margin: 5px auto;
+}
+
+.introduce-frame{
+    width: 100%;
+    height: 180px;
+}
+.banner{
+    width: 100%;
+}
+
+.background-image{
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(to bottom right, #eeaeca,#94bbe9);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.background-image.cv{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.introduce-bottom{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 0px 3px rgb(212, 199, 199);
+    text-align: left;
+}
+
+.avatar-container{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+.avatar{
+    box-shadow: 0 0 0 3px white;
+}
+
+
+.edit-avatar{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.introduce-fullname{
+    font-size: large;
+    text-transform: capitalize;
+    font-weight:600;
+    position: absolute;
+    margin-left: 160px ;
+    /* margin-top: -100px; */
+}
+
+.detail-swapper{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.title-account{
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.underline{
+    width: 100px;
+    height: 3px;
+    background-color: #94bbe9;
+    display: block;
+    margin: 0 auto;
+}
+
+.body{
+    margin-top: 30px;
+}
+
+.button {
+    border-radius: 5px;
+    margin: 0px 20px;
+    width: 100px;
+}
+
+.save-btn{
+    color: green;
+    border-color: green;
+}
+
+.save-btn:hover,
+.save-btn:focus {
+    background-color: rgb(0, 128, 0, 0.3);
+    border-color: green;
+    color: green;
+}
+
+.cancel-btn{
+    color: #E9967A;
+    border-color: #E9967A
+}
+
+.cancel-btn:hover,
+.cancel-btn:focus {
+    background-color: rgb(233, 150, 122, 0.3);
+    border-color: #E9967A;
+    color: #E9967A;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.change-btn{
+    margin: 0 0 0 10px;
+}
+
+.text-display{
+    border-bottom: 1.5px solid gray;
+    text-align: start;
+    font-weight: 350;
+}
+
+.apply-container{
+    position: relative;
+}
+
+.apply-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.apply-btn{
+    margin-top:5px;
+    margin-right: 20px;
+}

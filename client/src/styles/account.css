@@ -1,0 +1,35 @@
+.account-container {
+    height: 40px;
+}
+
+.account-avatar-container {
+    min-width: 110px;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(225, 255, 225);
+}
+
+.account-avatar {
+    margin-right: 5px;
+    color: green;
+    font-weight: 700;
+    background-color: rgb(160, 255, 160);
+}
+
+.account-name {
+    color: green;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.menu-account {
+    background-color: azure;
+}
+
+.role{
+    display: flex;
+    align-items: flex-start;
+}

@@ -1,0 +1,233 @@
+
+.center-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.card {
+  min-width: 450px;
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#dE685E, #EE786E);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card.green .additional {
+  background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+
+.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .points {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.bottom-button .level {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.35em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+}
+
+.card .additional .user-card .points {
+  font-size: 0.6em;
+  top: 85%;
+}
+
+.card .additional .user-card .points + .points{
+  top: 75%;
+}
+
+.card .additional .user-card .points + .points +.points{
+  top: 95%;
+}
+
+.card .additional .user-card .avatar-cv{
+  height: 100px;
+  width: 100px;
+  top: 30%;
+  left: 25px;
+  box-shadow: 0 0 0 3px white;
+}
+
+.card .additional .more-info {
+  width: 300px;
+  float: left;
+  position: absolute;
+  left: 150px;
+  height: 100%;
+}
+
+.card .additional .more-info h2 {
+  font-weight: 900;
+}
+
+.card.red .additional .more-info .titlecard {
+  color: #5c0800;
+}
+.card.green .additional .more-info .titlecard {
+  color: #224C36;
+}
+
+.card .additional .coords {
+  margin: 0rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.card.green .additional .coords {
+  color: #325C46;
+}
+.card.red .additional .coords {
+  color: #5c0800;
+}
+
+.card .additional .coords span + span {
+  float: right;
+}
+
+.card .additional .stats {
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: #fff;
+}
+
+.card .additional .bottom-button{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    color: #fff;
+  }
+
+.detail-btn{
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.card.green .additional .stats {
+  color: #325C46;
+}
+.card.red .additional .stats {
+  color: #5c0800;
+}
+.card .additional .stats > div {
+  flex: 1;
+  text-align: center;
+}
+
+.card .additional .stats div.titlecard {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card .additional .stats div.value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+}
+
+.card .additional .stats div.tiny{
+  padding-top: 5px;
+    font-size: 0.8rem;
+}
+
+.card .general {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+.card .general .hover{
+  position: absolute;
+  bottom: 1rem;
+  right: 5rem;
+  /* right: 1rem; */
+  /* font-size: 0.9em; */
+  opacity: 0.5;
+}
+
+.card .general h2{
+  font-weight: 900;
+}
+/* 
+.red{
+  color:#5c0800
+} */

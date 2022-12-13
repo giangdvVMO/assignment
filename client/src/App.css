@@ -1,0 +1,92 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+.content-app{
+  margin: 0 auto;
+  min-width: 600px;
+  max-width: 1250px;
+  min-height: calc(100vh - 220px)
+}
+.footer{
+  /* min-height: 100px; */
+  width: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+.spin-container{
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-admin{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-image{
+  margin: 10px 5px;
+}
+
+.name-logo{
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: white;
+}
+
+.log-out{
+  color:white;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+/* .register-container{
+  background-image: url();
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

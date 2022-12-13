@@ -1,0 +1,55 @@
+.about{
+    width: 100%;
+    min-height: calc(100vh - 400px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container{
+    /* display: block; */
+}
+
+.title-about{
+    font-size:x-large;
+    font-weight: 600;
+    color:gray;
+}
+
+.section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-about-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-about{
+    height: 200px;
+    width: 200px;
+    /* background-color: #ffe4e1; */
+    border-radius: 20px;
+    margin: 10px 30px;
+}
+
+.image-about{
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+}
+
+.fullname-about{
+    font-size: medium;
+    font-weight: 300;
+}
+
+.position-about{
+    font-size: small;
+    font-weight: 200;
+    color:brown;
+}
